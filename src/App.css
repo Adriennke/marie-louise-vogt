@@ -1,7 +1,14 @@
+@font-face {
+    font-family: "Gotham-Light", sans-serif;
+    src: url("./font/gotham_light_regular.otf")
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Gotham-Light", sans-serif;
 }
 
 body {
@@ -12,5 +19,8 @@ body {
 }
 
 
+p {
+    font-weight: 100;
+}
 
 @media(min-width: 48em) {}
