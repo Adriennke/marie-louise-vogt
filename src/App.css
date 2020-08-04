@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Gotham-Light", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -18,9 +19,12 @@ body {
     height: 100%;
 }
 
+.home {
+    height: 100vh;
+}
 
 .main_img {
-    border: 1rem solid #fff;
+    border: 10px solid #fff;
     display: block;
     width: 291px;
     height: 435px;
@@ -30,10 +34,37 @@ body {
 .logo {
     width: 64px;
     height: 42px;
-    margin: 0 auto;
+    position: fixed;
+    left: 40%;
+    top: 70%;
     display: block;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
+
+.about {
+    height: 100vh;
+    text-align: left;
+    letter-spacing: 4px;
+    line-height: 1.3rem;
+    margin: 0 1rem;
+    font-size: 0.8rem
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    position: fixed;
+    bottom: 5%;
+    right: 15%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 18px solid #D9D9D9;
+}
+
+.triangle {
+    cursor: pointer;
+}
+
 
 
 
