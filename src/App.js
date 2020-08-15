@@ -13,9 +13,9 @@ function App() {
     <>
       <div className="container">
         <Home />
+        <About />
+        <Contact />
       </div>
-      <About />
-      <Contact />
     </>
   );
 }
