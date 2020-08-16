@@ -1,5 +1,4 @@
 import React from 'react';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 import './App.scss';
@@ -13,9 +12,9 @@ function App() {
     <>
       <div className="container">
         <Home />
-        <About />
-        <Contact />
       </div>
+      <About />
+      <Contact />
     </>
   );
 }
