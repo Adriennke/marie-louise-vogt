@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: #EAEAEA;
+    background-color: #D9D9D9;
     /* D9D9D9 E2E2DF E0E1DD E5E6E4 E5E5E5 EAEAEA */
     width: 100%;
     height: 100%;
@@ -64,7 +64,7 @@ body {
         transform: translate(-50%, 0);
         height: 0;
         overflow: hidden;
-        background-color: #E2E2DF;
+        background-color: #D9D9D9;
         transition: .2s;
         transition-delay: .2s;
     }
@@ -102,7 +102,7 @@ body {
 
                 &__container {
                     height: 100vh;
-                    width: 100vh;
+                    width: 100vw;
                     z-index: 3;
                     font-size: 1.4rem;
                 }
@@ -144,7 +144,7 @@ body {
     letter-spacing: 3px;
     line-height: 1.3rem;
     font-size: 0.7rem;
-    // width: 291px;
+
 }
 
 .contact {
@@ -155,7 +155,7 @@ body {
     line-height: 1.3rem;
     font-size: 0.625rem;
     // text-transform: lowercase;
-    // width: 291px;
+
 }
 
 .email a {
@@ -169,39 +169,40 @@ body {
 @media only screen and (min-width: 400px) {
 
     .img-container img {
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
     }
 
     .hero img {
         display: block;
-        width: 60% !important;
-        height: 60% !important;
+        width: 50% !important;
+        height: 50% !important;
         margin: 0 auto;
 
     }
 
     .about {
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
-        margin-top: 6rem;
-        margin-bottom: 8rem;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
         letter-spacing: 5px;
         line-height: 1.5rem;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+
     }
 
     .contact {
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
         letter-spacing: 5px;
         line-height: 1.5rem;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .email a {
-        font-size: 0.9rem;
-
+        font-size: 0.725rem;
+        letter-spacing: 2px;
     }
 
 
@@ -213,7 +214,12 @@ body {
     .logo {
         width: 93px;
         height: 70px;
+    }
 
+
+    .dropdown-menu__list {
+        letter-spacing: 5px;
+        font-size: 0.8rem;
     }
 
 }
@@ -221,36 +227,45 @@ body {
 @media only screen and (min-width: 768px) {
 
     .img-container img {
-        width: 60%;
+        width: 40%;
         margin: 0 auto;
     }
 
     .hero img {
         display: block;
-        width: 60% !important;
-        height: 60% !important;
+        width: 40% !important;
+        height: 40% !important;
         margin: 0 auto;
 
     }
 
     .about {
-        width: 60%;
+        width: 40%;
         margin: 0 auto;
-        margin-top: 6rem;
-        margin-bottom: 8rem;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
         letter-spacing: 5px;
         line-height: 1.5rem;
         font-size: 0.9rem;
     }
 
     .contact {
-        width: 60%;
+        width: 40%;
         margin: 0 auto;
         letter-spacing: 5px;
         line-height: 1.5rem;
         font-size: 0.9rem;
     }
 
+    .email a {
+        font-size: 0.9rem;
+        letter-spacing: 3px;
+    }
+
+    .dropdown-menu__list {
+        letter-spacing: 5px;
+        font-size: 0.9rem;
+    }
 
 
 }
@@ -273,19 +288,14 @@ body {
     .about {
         width: 40%;
         margin: 0 auto;
-        margin-top: 6rem;
-        margin-bottom: 8rem;
-        letter-spacing: 5px;
-        line-height: 1.5rem;
-        font-size: 0.9rem;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
     }
 
     .contact {
         width: 40%;
         margin: 0 auto;
-        letter-spacing: 5px;
-        line-height: 1.5rem;
-        font-size: 0.9rem;
+
     }
 
 

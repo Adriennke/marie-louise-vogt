@@ -11,7 +11,7 @@ export default function Contact() {
 
             <div className="contact">
                 <p id="contact">
-                    <strong>BERLIN BASED KNITWEAR DESIGNER & CONSULTANT</strong>
+                    <strong>MARIE LOUISE VOGT</strong>
                     <br />
                     <br />
 
@@ -24,11 +24,7 @@ export default function Contact() {
 
                     <br />
                     <br />
-                        FOLLOW US ON
-                        <br />
-                        INSTAGRAM (LINK)
-                        <br />
-                        FACEBOOK
+                            INSTAGRAM
                         <br />
                     <br />
                         2020 MARIE-LOUISE VOGT - ALL RIGHTS RESERVED
