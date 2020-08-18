@@ -169,45 +169,52 @@ body {
 @media only screen and (min-width: 400px) {
 
     .img-container img {
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
     }
 
     .hero img {
         display: block;
-        width: 70% !important;
-        height: 70% !important;
+        width: 60% !important;
+        height: 60% !important;
         margin: 0 auto;
 
     }
 
     .about {
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
-        margin-top: 2rem;
+        margin-top: 6rem;
         margin-bottom: 8rem;
+        letter-spacing: 5px;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
     }
 
     .contact {
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
+        letter-spacing: 5px;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
     }
+
+    .email a {
+        font-size: 0.9rem;
+
+    }
+
 
     .container {
         grid-gap: 1rem;
 
     }
 
-    .main_img {
 
-        width: 291px;
-        height: 435px;
+    .logo {
+        width: 93px;
+        height: 70px;
+
     }
-
-    /* .logo {
-        width: 64px;
-        height: 44px;
-
-    } */
 
 }
