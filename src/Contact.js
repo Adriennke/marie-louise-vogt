@@ -1,6 +1,12 @@
 import React from 'react';
 
 
+import {
+    BrowserRouter as Router,
+    Link,
+} from "react-router-dom";
+
+
 import DocumentTitle from 'react-document-title';
 
 export default function Contact() {
@@ -24,14 +30,21 @@ export default function Contact() {
 
                     <br />
                     <br />
-                            INSTAGRAM
-                        <br />
+                    <span className="email"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/marielouisevogt/">INSTAGRAM</a></span>
                     <br />
-                        2020 MARIE-LOUISE VOGT - ALL RIGHTS RESERVED
+                    <br />
+
+                    <Link to="/credits" id="credit">CREDITS</Link>
+
+
+                    <br />
+                    <br />
+                        &copy;2020 MARIE-LOUISE VOGT -
+                        <br />ALL RIGHTS RESERVED
                     </p>
             </div>
 
-        </DocumentTitle>
+        </DocumentTitle >
 
     )
 }
