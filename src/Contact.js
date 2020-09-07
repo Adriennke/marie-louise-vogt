@@ -30,16 +30,16 @@ export default function Contact() {
 
                     <br />
                     <br />
-                    <span className="email"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/marielouisevogt/">INSTAGRAM</a></span>
+                    <span className="instaButton"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/marielouisevogt/">INSTAGRAM</a></span>
                     <br />
                     <br />
 
-                    <Link to="/credits" id="credit">CREDITS</Link>
+                    <Link to="/credits" className="creditButton">CREDITS</Link>
 
 
                     <br />
                     <br />
-                        &copy;2020 MARIE-LOUISE VOGT -
+                        &copy;2020 MARIE-LOUISE VOGT
                         <br />ALL RIGHTS RESERVED
                     </p>
             </div>

@@ -3,6 +3,12 @@ import React from 'react';
 
 import DocumentTitle from 'react-document-title';
 
+import {
+    BrowserRouter as Router,
+    Link,
+} from "react-router-dom";
+
+
 import red_hair from './img/red.jpeg';
 import bazaar from './img/Look12.jpeg'
 import bild1 from './img/bild1.png';

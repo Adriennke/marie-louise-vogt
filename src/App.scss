@@ -10,11 +10,10 @@
     box-sizing: border-box;
     font-family: "Gotham-Light", sans-serif;
     scroll-behavior: smooth;
-    // word-break: break-all;
 }
 
 *::selection {
-    background-color: #EAEAEA;
+    background-color: #d8d8d8;
 }
 
 body {
@@ -25,11 +24,9 @@ body {
 }
 
 
-// .container {
-//     display: grid;
-//     grid-template-rows: auto;
-//     grid-gap: 7rem;
-// }
+.container {
+    margin: 0;
+}
 
 .home {
     height: auto;
@@ -157,7 +154,7 @@ body {
         opacity: 1;
     }
 
-    45% {
+    30% {
         opacity: 1;
     }
 
@@ -198,7 +195,7 @@ body {
 .about {
     height: auto;
     margin: 0.8rem 1.5rem 3rem 1.5rem;
-    text-align: left;
+    text-align-last: left;
     letter-spacing: 3px;
     line-height: 1.3rem;
     font-size: 0.7rem;
@@ -212,35 +209,49 @@ body {
     letter-spacing: 3px;
     line-height: 1.3rem;
     font-size: 0.625rem;
-    // text-transform: lowercase;
-
 }
 
 .credits {
-    height: 100vh;
-    margin: 0 2rem 0 2rem;
+    min-height: 100vh;
+    margin: 0 2rem 10rem 2rem;
     text-align: left;
     letter-spacing: 3px;
     line-height: 1.3rem;
     font-size: 0.7rem;
+    text-transform: lowercase;
+    page-break-inside: avoid;
 }
 
-#credit {
+.creditButton {
     font-size: 0.625rem;
     text-decoration: none;
     color: #000;
+    letter-spacing: 3px;
 }
 
-#credit2 {
+#backButton {
     color: #000;
     font-size: 0.625rem;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .email a {
     font-size: 0.625rem;
     text-decoration: none;
     color: #000;
+}
+
+.linkToMyWebsite a {
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.instaButton a {
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 3px;
 }
 
 
@@ -263,7 +274,7 @@ body {
     .credits {
         width: 50%;
         margin: 0 auto;
-        margin-bottom: 6rem;
+        margin-bottom: 10rem;
         letter-spacing: 5px;
         line-height: 1.5rem;
         font-size: 0.8rem;
@@ -293,20 +304,14 @@ body {
         letter-spacing: 2px;
     }
 
-    #credit {
-        font-size: 0.725rem;
-        letter-spacing: 2px;
+    .creditButton {
+        font-size: 0.8rem;
+        letter-spacing: 5px;
     }
 
-    #credit2 {
-        color: #000;
-        font-size: 0.725rem;
-        letter-spacing: 2px;
-    }
-
-
-    .container {
-        grid-gap: 1rem;
+    #backButton {
+        font-size: 0.8rem;
+        letter-spacing: 5px;
     }
 
 
@@ -321,30 +326,39 @@ body {
         font-size: 0.8rem;
     }
 
+    .linkToMyWebsite a {
+        font-size: 0.8rem;
+    }
+
+    .instaButton a {
+        font-size: 0.8rem;
+        letter-spacing: 5px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
 
     .img-container img {
-        width: 40%;
+        width: 50%;
         margin: 0 auto;
     }
 
     .hero img {
         display: block;
-        width: 40% !important;
-        height: 40% !important;
+        width: 50% !important;
+        height: 50% !important;
         margin: 0 auto;
     }
 
     .credits {
-        width: 40%;
+        width: 50%;
         margin: 0 auto;
         font-size: 0.9rem;
     }
 
     .about {
-        width: 40%;
+        width: 50%;
         margin: 0 auto;
         margin-top: 2rem;
         margin-bottom: 6rem;
@@ -354,7 +368,7 @@ body {
     }
 
     .contact {
-        width: 40%;
+        width: 50%;
         margin: 0 auto;
         letter-spacing: 5px;
         line-height: 1.5rem;
@@ -363,23 +377,38 @@ body {
 
     .email a {
         font-size: 0.9rem;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
     }
 
-    #credit {
+    .creditButton {
         font-size: 0.9rem;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
     }
 
-    #credit2 {
-        color: #000;
+    #backButton {
         font-size: 0.9rem;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
     }
+
+
+    .logo {
+        width: 93px;
+        height: 70px;
+    }
+
 
     .dropdown-menu__list {
         letter-spacing: 5px;
         font-size: 0.9rem;
+    }
+
+    .linkToMyWebsite a {
+        font-size: 0.9rem;
+    }
+
+    .instaButton a {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
     }
 
 
@@ -388,31 +417,76 @@ body {
 @media only screen and (min-width: 1200px) {
 
     .img-container img {
-        width: 40%;
+        width: 35%;
         margin: 0 auto;
     }
 
     .hero img {
         display: block;
-        width: 40% !important;
-        height: 40% !important;
+        width: 35% !important;
+        height: 35% !important;
         margin: 0 auto;
 
     }
 
     .about {
-        width: 40%;
+        width: 35%;
         margin: 0 auto;
-        margin-top: 2rem;
-        margin-bottom: 6rem;
+        margin-top: 4rem;
+        margin-bottom: 4.5rem;
     }
 
     .contact {
-        width: 40%;
+        width: 35%;
         margin: 0 auto;
 
     }
 
+    .credits {
+        width: 35%;
+        margin: 0 auto;
+        font-size: 0.9rem;
+    }
 
+    .logo {
+        width: 113px;
+        height: 90px;
+    }
+
+    .email a {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+    }
+
+    .creditButton {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+    }
+
+    #backButton {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+    }
+
+
+    .logo {
+        width: 93px;
+        height: 70px;
+    }
+
+
+    .dropdown-menu__list {
+        letter-spacing: 5px;
+        font-size: 0.9rem;
+    }
+
+    .linkToMyWebsite a {
+        font-size: 0.9rem;
+    }
+
+    .instaButton a {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+    }
 
 }

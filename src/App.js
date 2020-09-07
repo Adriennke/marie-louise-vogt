@@ -19,12 +19,8 @@ function App() {
   return (
     <>
       <Router>
-        <div className="container">
-
-          <Route exact path="/" component={Mainpage} />
-          <Route path="/credits" component={Credits} />
-
-        </div>
+        <Route exact path="/" component={Mainpage} />
+        <Route exact path="/credits" component={Credits} />
       </Router>
     </>
   );
