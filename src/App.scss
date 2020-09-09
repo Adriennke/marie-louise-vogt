@@ -11,6 +11,7 @@
     font-family: "Gotham-Light", sans-serif;
 }
 
+//add color for text-selection
 *::selection {
     background-color: #d8d8d8;
 }
@@ -22,8 +23,7 @@ body {
     height: 100%;
 }
 
-
-
+//navigation bar style
 .dropdown-menu {
     position: fixed;
     top: 2%;
@@ -261,7 +261,7 @@ body {
 }
 
 .instaButton a {
-    font-size: 0.7rem;
+    font-size: 0.625rem;
     text-decoration: none;
     color: #000;
     letter-spacing: 3px;
