@@ -207,6 +207,10 @@ body {
         font-size: 0.625rem;
         margin: 0;
     }
+
+    p {
+        margin: 1.5rem 0 1.5rem 0;
+    }
 }
 
 .credits {
@@ -219,8 +223,13 @@ body {
     text-transform: lowercase;
     page-break-inside: avoid;
 
+    ul:nth-child(n+2) {
+        margin: 1.5rem 0 1.5rem 0;
+    }
+
     ul li {
         list-style-type: none;
+
     }
 }
 
@@ -241,6 +250,8 @@ body {
     font-size: 0.625rem;
     text-decoration: none;
     color: #000;
+    display: block;
+    margin-bottom: 1.5rem;
 }
 
 .linkToMyWebsite a {
@@ -254,6 +265,8 @@ body {
     text-decoration: none;
     color: #000;
     letter-spacing: 3px;
+    display: block;
+    margin-bottom: 1.5rem;
 }
 
 
