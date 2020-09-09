@@ -11,9 +11,9 @@ import ScrollMemory from 'react-router-scroll-memory';
 import './App.scss';
 
 
-import Credits from './Credits';
+import Credits from './Components/Credits';
 
-import Mainpage from './Mainpage';
+import Mainpage from './Components/Mainpage';
 
 
 
