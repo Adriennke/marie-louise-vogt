@@ -1,10 +1,7 @@
 import React from 'react';
 
 
-import {
-    BrowserRouter as Router,
-    Link,
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 import DocumentTitle from 'react-document-title';
@@ -12,7 +9,7 @@ import DocumentTitle from 'react-document-title';
 export default function Contact() {
     return (
 
-        <DocumentTitle title="Marie-Louise Vogt | contact">
+        <DocumentTitle title="Marie-Louise Vogt | home">
 
 
             <div className="contact">

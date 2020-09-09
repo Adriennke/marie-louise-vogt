@@ -3,11 +3,6 @@ import React from 'react';
 
 import DocumentTitle from 'react-document-title';
 
-import {
-    BrowserRouter as Router,
-    Link,
-} from "react-router-dom";
-
 
 import red_hair from './img/red.jpeg';
 import bazaar from './img/Look12.jpeg'
@@ -18,7 +13,7 @@ import bild4 from './img/bild4.png';
 import bild5 from './img/bild5.png';
 import red_dress from './img/red_dress.png';
 
-import gif from './img/final_gif.gif'
+import gif from './img/final_gif2.gif'
 
 import logo from './img/logo-weiss.png'
 
@@ -29,8 +24,8 @@ export default function Home() {
 
     return (
         <DocumentTitle title="Marie-Louise Vogt">
-            <div className="home">
 
+            <div className="home">
 
                 <div className="img-container" id="work">
                     <img src={bild1} alt="A woman posing in front of a recycling hill in berlin, germany." />
@@ -55,6 +50,7 @@ export default function Home() {
 
 
             </div>
+
         </DocumentTitle>
     )
 }
