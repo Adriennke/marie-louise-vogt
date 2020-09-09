@@ -9,7 +9,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Gotham-Light", sans-serif;
-    scroll-behavior: smooth;
 }
 
 *::selection {
@@ -23,14 +22,6 @@ body {
     height: 100%;
 }
 
-
-.container {
-    margin: 0;
-}
-
-.home {
-    height: auto;
-}
 
 
 .dropdown-menu {
@@ -209,6 +200,13 @@ body {
     letter-spacing: 3px;
     line-height: 1.3rem;
     font-size: 0.625rem;
+
+    h2 {
+        letter-spacing: 3px;
+        line-height: 1.3rem;
+        font-size: 0.625rem;
+        margin: 0;
+    }
 }
 
 .credits {
@@ -220,6 +218,10 @@ body {
     font-size: 0.7rem;
     text-transform: lowercase;
     page-break-inside: avoid;
+
+    ul li {
+        list-style-type: none;
+    }
 }
 
 .creditButton {
@@ -297,6 +299,12 @@ body {
         letter-spacing: 5px;
         line-height: 1.5rem;
         font-size: 0.8rem;
+
+        h2 {
+            letter-spacing: 5px;
+            line-height: 1.5rem;
+            font-size: 0.8rem;
+        }
     }
 
     .email a {
@@ -373,6 +381,12 @@ body {
         letter-spacing: 5px;
         line-height: 1.5rem;
         font-size: 0.9rem;
+
+        h2 {
+            letter-spacing: 5px;
+            line-height: 1.5rem;
+            font-size: 0.9rem;
+        }
     }
 
     .email a {
