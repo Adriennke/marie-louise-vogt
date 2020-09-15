@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Gotham-Light", sans-serif;
-    src: url("./font/gotham_light_regular.otf")
+    src: url("./font/Gotham-Font/GothamLight.ttf")
 }
 
 
@@ -10,8 +10,8 @@
     box-sizing: border-box;
     font-family: "Gotham-Light",
         sans-serif,
-        'Raleway',
-        sans-serif;
+        // 'Raleway',
+        // sans-serif;
 }
 
 //add color for text-selection
@@ -192,8 +192,8 @@ body {
     text-align-last: left;
     letter-spacing: 3px;
     line-height: 1.3rem;
-    font-size: 0.7rem;
-
+    font-size: 0.625rem;
+    // text-transform: uppercase;
 }
 
 .contact {
@@ -274,7 +274,7 @@ body {
 
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 479px) {
 
     .img-container img {
         width: 50%;
@@ -364,7 +364,7 @@ body {
 @media only screen and (min-width: 768px) {
 
     .img-container img {
-        width: 40%;
+        width: 50%;
         margin: 0 auto;
     }
 
@@ -379,6 +379,7 @@ body {
         width: 50%;
         margin: 0 auto;
         font-size: 0.9rem;
+        margin-bottom: 17rem;
     }
 
     .about {
@@ -476,6 +477,7 @@ body {
         width: 36%;
         margin: 0 auto;
         font-size: 0.9rem;
+        margin-bottom: 17rem;
     }
 
     .logo {
