@@ -280,31 +280,31 @@ body {
 @media only screen and (min-width: 479px) {
 
     .img-container img {
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
     }
 
     .hero img {
         display: block;
-        width: 50% !important;
-        height: 50% !important;
+        width: 100% !important;
+        height: 100% !important;
         margin: 0 auto;
 
     }
 
     .credits {
-        width: 50%;
+        width: 90%;
         margin: 0 auto;
-        margin-bottom: 17rem;
+        margin-bottom: 35rem;
         letter-spacing: 5px;
         line-height: 1.5rem;
         font-size: 0.8rem;
     }
 
     .about {
-        width: 50%;
+        width: 90%;
         margin: 0 auto;
-        margin-top: 2rem;
+        margin-top: 1.4rem;
         margin-bottom: 6rem;
         letter-spacing: 5px;
         line-height: 1.5rem;
@@ -313,11 +313,12 @@ body {
     }
 
     .contact {
-        width: 50%;
+        width: 90%;
         margin: 0 auto;
         letter-spacing: 5px;
         line-height: 1.5rem;
         font-size: 0.8rem;
+        margin-bottom: 15rem;
 
         h2 {
             letter-spacing: 5px;
@@ -327,8 +328,8 @@ body {
     }
 
     .email a {
-        font-size: 0.725rem;
-        letter-spacing: 2px;
+        font-size: 0.8rem;
+        letter-spacing: 5px;
     }
 
     .creditButton {
@@ -388,7 +389,7 @@ body {
     .about {
         width: 50%;
         margin: 0 auto;
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-bottom: 6rem;
         letter-spacing: 5px;
         line-height: 1.5rem;
@@ -466,7 +467,7 @@ body {
     .about {
         width: 36%;
         margin: 0 auto;
-        margin-top: 4rem;
+        margin-top: 2rem;
         margin-bottom: 4.5rem;
     }
 
