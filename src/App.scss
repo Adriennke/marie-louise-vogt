@@ -58,12 +58,6 @@ body {
         letter-spacing: 3px;
         margin: 0.3rem 0.3rem 0 0;
         cursor: pointer;
-
-        &:hover {
-            background-color: #D8D8D8;
-            ;
-
-        }
     }
 
 
@@ -87,7 +81,6 @@ body {
     }
 
     &__list {
-
         list-style: none;
         padding-left: 0;
         display: flex;
@@ -178,6 +171,8 @@ body {
     animation-duration: 3s;
     animation-direction: alternate-reverse;
 }
+
+
 
 .hero img {
     width: 100% !important;
