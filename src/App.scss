@@ -173,12 +173,6 @@ body {
 }
 
 
-
-.hero img {
-    width: 100% !important;
-    height: 100% !important;
-}
-
 .logo {
     width: 73px;
     height: 50px;
@@ -191,7 +185,7 @@ body {
 
 .about {
     height: auto;
-    margin: 0.8rem 1.5rem 3rem 1.5rem;
+    margin: 0.8rem 1rem 3rem 1rem;
     text-align-last: left;
     letter-spacing: 3px;
     line-height: 1.3rem;
@@ -201,7 +195,7 @@ body {
 
 .contact {
     height: 100vh;
-    margin: 0 1.5rem;
+    margin: 0 1rem;
     text-align: left;
     letter-spacing: 3px;
     line-height: 1.3rem;
@@ -221,7 +215,7 @@ body {
 
 .credits {
     height: 100vh;
-    margin: 0 2rem 17rem 2rem;
+    margin: 0 1rem 17rem 1rem;
     text-align: left;
     letter-spacing: 3px;
     line-height: 1.3rem;
@@ -284,18 +278,11 @@ body {
         margin: 0 auto;
     }
 
-    .hero img {
-        display: block;
-        width: 100% !important;
-        height: 100% !important;
-        margin: 0 auto;
-
-    }
 
     .credits {
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 35rem;
+        margin-bottom: 29rem;
         letter-spacing: 5px;
         line-height: 1.5rem;
         font-size: 0.8rem;
@@ -365,17 +352,86 @@ body {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 680px) {
 
     .img-container img {
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
     }
 
-    .hero img {
-        display: block;
-        width: 50% !important;
-        height: 50% !important;
+    .credits {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 0.9rem;
+        margin-bottom: 17rem;
+    }
+
+    .about {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 1.6rem;
+        margin-bottom: 6rem;
+        letter-spacing: 5px;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .contact {
+        width: 90%;
+        margin: 0 auto;
+        letter-spacing: 5px;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+
+        h2 {
+            letter-spacing: 5px;
+            line-height: 1.5rem;
+            font-size: 0.9rem;
+        }
+    }
+
+    .email a {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+    }
+
+    .creditButton {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+    }
+
+    #backButton {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+    }
+
+
+    .logo {
+        width: 93px;
+        height: 70px;
+    }
+
+
+    .dropdown-menu__list {
+        letter-spacing: 5px;
+        font-size: 0.9rem;
+    }
+
+    .linkToMyWebsite a {
+        font-size: 0.9rem;
+    }
+
+    .instaButton a {
+        font-size: 0.9rem;
+        letter-spacing: 5px;
+    }
+
+
+}
+
+@media only screen and (min-width: 800px) {
+    .img-container img {
+        width: 50%;
         margin: 0 auto;
     }
 
@@ -456,13 +512,7 @@ body {
         margin: 0 auto;
     }
 
-    .hero img {
-        display: block;
-        width: 36% !important;
-        height: 36% !important;
-        margin: 0 auto;
 
-    }
 
     .about {
         width: 36%;
