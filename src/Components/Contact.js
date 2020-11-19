@@ -14,9 +14,9 @@ export default function Contact() {
 
             <div className="contact">
 
-                <h2 id="contact">MARIE LOUISE VOGT</h2>
+                <h2 id="contact" tabIndex="0">MARIE LOUISE VOGT</h2>
 
-                <p aria-label="address">
+                <p tabIndex="0" aria-label="reuterstrasse 37 12047 Berlin Germany"       >
                     REUTERSTRASSE 37<br />
                     12047 BERLIN<br />
                     GERMANY
@@ -30,7 +30,7 @@ export default function Contact() {
 
                 <Link to="/credits" className="creditButton">CREDITS</Link>
 
-                <p>
+                <p tabIndex="0" >
                     &copy;2020 MARIE-LOUISE VOGT
                     <br />ALL RIGHTS RESERVED
                 </p>
